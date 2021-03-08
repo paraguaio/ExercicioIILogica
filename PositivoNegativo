@@ -1,0 +1,36 @@
+/*
+ * Positivo Negativo
+ */
+package PositivoNegativo;
+
+import java.util.Scanner;
+
+/**
+ * @author icaro
+ */
+public class Programa1 
+
+{
+    int numerointeiro;
+    
+    static Scanner leitura = new Scanner(System.in);
+    
+    public static void main(String[] args)
+    {
+        System.out.println("Digite o número inteiro: ");
+        int numerointeiro = leitura.nextInt();
+        
+        System.out.println("O número inteiro é: ");
+        
+        if ( numerointeiro >= 0 ) 
+        {
+            System.out.println("Positivo");
+        }
+        else
+        {
+            System.out.println("Negativo");
+        }
+            
+            
+    } 
+}
