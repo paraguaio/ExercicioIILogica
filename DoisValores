@@ -1,0 +1,37 @@
+/*
+ * Dois Valores
+ */
+package DoisValores;
+
+import java.util.Scanner;
+
+/**
+ * @author icaro
+ */
+public class Programa2 
+
+{
+    int numerointeiro1, numerointeiro2 ;
+    
+    static Scanner leitura = new Scanner(System.in);
+    
+    public static void main(String[] args)
+    {
+        
+    System.out.println("Digite o primeiro número inteiro: ");
+    int numerointeiro1 = leitura.nextInt();
+    
+    System.out.println("Digite o segundo número inteiro: ");
+    int numerointeiro2 = leitura.nextInt();
+    
+        if ( numerointeiro1 == numerointeiro2 ) 
+        {
+            System.out.println("Os números inteiros são iguais.");
+        }
+        else
+        {
+            System.out.println("Os números inteiros são diferentes!");
+        }
+    
+    }
+}
