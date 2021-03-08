@@ -1,0 +1,31 @@
+/*
+ * 
+ */
+package ParImpar;
+
+import java.util.Scanner;
+
+/**
+ * @author icaro
+ */
+public class Programa3 
+{
+    int numerointeiro;
+    
+    static Scanner leitura = new Scanner(System.in);
+    
+    public static void main(String[] args)
+    {
+    System.out.println("Digite o número inteiro: ");
+    int numerointeiro = leitura.nextInt();
+    
+        if( numerointeiro % 2 == 0)
+        {
+        System.out.println("É par !");
+        }
+        else 
+        {
+        System.out.println("É impar!");
+        }
+    }
+}
